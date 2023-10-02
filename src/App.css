@@ -1,0 +1,21 @@
+/* BackgroundAnimation.css */
+@keyframes blockAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.block {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: #a7a7ac;
+  animation: blockAnimation 5s infinite;
+}
