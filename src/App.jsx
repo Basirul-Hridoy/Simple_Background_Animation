@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <div className="relative flex items-center h-screen justify-center bg-gradient-to-r from-[#E29B99] to-[#1B71E1] overflow-hidden p-6">
+      <div className="relative flex items-center h-screen justify-center lg:bg-gradient-to-r bg-gradient-to-tr lg:from-[#E29B99] to-[#1B71E1] lg:to-[#1B71E1] from-[#E29B99] overflow-hidden p-6">
         <div className="w-[500px] lg:p-14 p-6 rounded-lg bg-[#3C4454] text-[#BABFCE] text-center z-50">
           <h2 className="lg:text-2xl text-xl uppercase lg:tracking-[.25em] tracking-[.15em]">Mr. cool Developer</h2>
           <p className="w-full border border-b border-gray-600 lg:my-8 my-6"></p>
